@@ -1,0 +1,224 @@
+/* General Body */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0a0a0f;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a2e;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  background: #ff4d6d;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact-info i {
+  margin-right: 6px;
+  color: #ffcc00; /* highlight icons */
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  background: #12121a;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #7c5cff;
+  text-decoration: none;
+}
+
+.search input {
+  padding: 8px 12px;
+  border-radius: 50px;
+  border: 1px solid #444;
+  background: #1a1a28;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #151526, #0f0f19);
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #cfcfe6;
+}
+
+/* Artist Grid */
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.artist-card {
+  background: #141424;
+  border-radius: 15px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.artist-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid #23233a;
+}
+
+.artist-name {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #12121a;
+  margin-top: 30px;
+  color: #bdbde0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .search input {
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.page-title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 28px;
+  color: #ff4d6d;
+}
+
+.merch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 20px 40px;
+}
+
+.merch-card {
+  background: #141424;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.merch-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.merch-card h3 {
+  margin: 15px 0 10px;
+  font-size: 16px;
+}
+
+.merch-card .price {
+  color: #ffcc00;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.merch-card button {
+  padding: 8px 15px;
+  background: #ff4d6d;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.merch-card button:hover {
+  background: #e63e5c;
+}
+
