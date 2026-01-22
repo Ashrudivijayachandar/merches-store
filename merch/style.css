@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: #0a0a0f;
-  color: #fff;
+  background: #F2E8DC;
+  color: #2B2B2B;
 }
 
 /* HEADER */
@@ -11,9 +11,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1a1a2e;
+  background: #2B2B2B;
   padding: 15px 30px;
-  color: #fff;
+  color: #F2E8DC;
 }
 
 .logo {
@@ -35,7 +35,7 @@ header {
 
 .search-bar button {
   padding: 8px 15px;
-  background: #ff4d6d;
+  background: #44B78B;
   border: none;
   color: white;
   border-radius: 8px;
@@ -56,7 +56,7 @@ header {
 
 .contact-info i {
   margin-right: 6px;
-  color: #ffcc00; /* highlight icons */
+  color: #44B78B; /* highlight icons */
 }
 
 /* Container */
@@ -72,7 +72,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-  background: #12121a;
+  background: #2B2B2B;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -81,23 +81,23 @@ header {
 .brand {
   font-weight: bold;
   font-size: 1.5rem;
-  color: #7c5cff;
+  color: #44B78B;
   text-decoration: none;
 }
 
 .search input {
   padding: 8px 12px;
   border-radius: 50px;
-  border: 1px solid #444;
-  background: #1a1a28;
-  color: #fff;
+  border: 1px solid #8A9A5B;
+  background: #D5D8DC;
+  color: #2B2B2B;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(135deg, #151526, #0f0f19);
+  background: linear-gradient(135deg, #8A9A5B, #2B2B2B);
   border-radius: 15px;
   margin: 20px 0;
 }
@@ -108,7 +108,7 @@ header {
 }
 
 .hero p {
-  color: #cfcfe6;
+  color: #F2E8DC;
 }
 
 /* Artist Grid */
@@ -120,11 +120,11 @@ header {
 }
 
 .artist-card {
-  background: #141424;
+  background: #D5D8DC;
   border-radius: 15px;
   overflow: hidden;
   text-decoration: none;
-  color: #fff;
+  color: #2B2B2B;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -138,7 +138,7 @@ header {
   height: 250px;
   object-fit: cover;
   display: block;
-  border-bottom: 1px solid #23233a;
+  border-bottom: 1px solid #8A9A5B;
 }
 
 .artist-name {
@@ -152,9 +152,9 @@ header {
 footer {
   text-align: center;
   padding: 20px 0;
-  background: #12121a;
+  background: #2B2B2B;
   margin-top: 30px;
-  color: #bdbde0;
+  color: #D5D8DC;
 }
 
 /* Responsive */
@@ -171,7 +171,7 @@ footer {
   text-align: center;
   margin: 30px 0;
   font-size: 28px;
-  color: #ff4d6d;
+  color: #44B78B;
 }
 
 .merch-grid {
@@ -182,11 +182,11 @@ footer {
 }
 
 .merch-card {
-  background: #141424;
+  background: #D5D8DC;
   border-radius: 15px;
   padding: 15px;
   text-align: center;
-  color: white;
+  color: #2B2B2B;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -203,14 +203,14 @@ footer {
 }
 
 .merch-card .price {
-  color: #ffcc00;
+  color: #8A9A5B;
   font-weight: bold;
   margin-bottom: 12px;
 }
 
 .merch-card button {
   padding: 8px 15px;
-  background: #ff4d6d;
+  background: #44B78B;
   border: none;
   color: white;
   border-radius: 8px;
@@ -219,6 +219,6 @@ footer {
 }
 
 .merch-card button:hover {
-  background: #e63e5c;
+  background: #3A9D7A;
 }
 
